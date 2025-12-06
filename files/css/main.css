@@ -66,8 +66,16 @@ footer {
 .link-button {
   display: flex;
   gap: 10px;
-  justify-content: right;
+  justify-content: center;
   padding-right: 10px;
+}
+
+.stef1428-button, .thk-button, .teez-button {
+  transition: transform 0.2s ease;
+}
+
+.stef1428-button:hover, .thk-button:hover, .teez-button:hover {
+  transform: scale(1.1);
 }
 
 
