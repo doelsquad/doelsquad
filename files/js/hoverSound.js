@@ -6,7 +6,7 @@ var sound = document.getElementById('hoverSound');
 
 document.querySelectorAll('a').forEach(function(link) {
     link.addEventListener('mouseenter', function() {
-        sound.currentTime = 0; 
+        sound.currentTime = 0.45; 
         sound.play();
     });
 });
