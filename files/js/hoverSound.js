@@ -1,6 +1,7 @@
 // code by  (https://github.com/1428Stef)
 // file created at 6 December 2025 11:41:09 AM (UTC+3)
-console.log("[*] hoverSound.js loaded.")
+console.log("[*] hoverSound.js loaded.");
+
 var sound = document.getElementById('hoverSound');
 
 document.querySelectorAll('a').forEach(function(link) {
@@ -9,4 +10,3 @@ document.querySelectorAll('a').forEach(function(link) {
         sound.play();
     });
 });
-

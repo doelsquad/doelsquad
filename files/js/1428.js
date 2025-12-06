@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let add = +element.dataset.add;
   let target = +element.dataset.target;
 
-  element.onmouseenter = () => {
+  element.addEventListener("mouseenter", () => {
     clearInterval(backwardInterval);
 
     let [_base, _add] = [base, add];
@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
       element.textContent = `${_base}+${_add}`;
       _base++, _add--;
     }, 15);
-  };
+  });
 
-  element.onmouseleave = () => {
+  element.addEventListener("mouseleave", () => {
     clearInterval(forwardInterval);
 
     let text = element.textContent;
@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", () => {
       element.textContent = `${_base}-${_add}`;
       _base--, _add++;
     }, 15);
-  };
+  });
 });
