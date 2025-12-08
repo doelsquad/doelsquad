@@ -41,17 +41,83 @@ main {
 }
 
 .container {
+  padding-top: 100px;
   margin: 25px 15px 25px 15px;
-  text-align: center;
 }
 
-.members {
-  margin-top: 30px;
+.main-cards-members {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.card-teez {
+  order: 2;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: 1px solid rgba(221, 155, 205, 0.699);
+  padding: 14px 16px;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  background: url(../images/nikita.jpg);
+  background-size: cover;
+  box-shadow: 0 0 15px black;
+}
+
+.card-title-teez {
+  display: flex;
+  font-weight: 900;
+  filter: drop-shadow(0 0 1px rgb(167, 65, 167));
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
+}
+
+.card-stef1428 {
+  order: 0;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: 1px solid rgba(146, 221, 33, 0.849);
+  padding: 14px 16px;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  background: url(../images/stepan.jpg);
+  background-size: cover;
+  box-shadow: 0 0 15px black;
+}
+
+.card-title-stef1428 {
+  display: flex;
+  font-weight: 900;
+  filter: drop-shadow(0 0 1px rgb(152, 252, 86));
+  justify-content: center;
+  width: 100%;
+}
+
+.card-thk {
+  order: 1;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border: 1px solid rgb(235, 173, 19);
+  padding: 14px 16px;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 300px;
+  background: url(../images/vladislav.jpg);
+  background-size: cover;
+  box-shadow: 0 0 15px black;
+}
+
+.card-title-thk {
+  display: flex;
+  font-weight: 900;
+  filter: drop-shadow(0 0 1px rgb(243, 189, 41));
+  justify-content: center;
+  width: 100%;
 }
 
 @media (max-width: 640px) {
@@ -85,7 +151,7 @@ main {
 }
 
 footer {
-  padding-top: 35px;
+  padding-top: 300px;
   padding: top;
   bottom: 0;
 }
