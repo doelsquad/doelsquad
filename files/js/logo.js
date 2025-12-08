@@ -1,3 +1,6 @@
+// code by  (https://github.com/1428Stef)
+// file created at 8 December 2025 1:29:09 PM (UTC+3)
+console.log("[*] logo.js loaded.")
 const img = document.querySelector('.header-logo img');
 
 img.addEventListener('mousemove', e => {
