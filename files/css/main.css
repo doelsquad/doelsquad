@@ -11,6 +11,26 @@ body {
   background-color: #222526;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  perspective: 800px;
+  display: inline-block;
+}
+
+.header-logo img {
+  width: 130px;
+  border-radius: 10px;
+  transition: transform 0.1s ease;
+  transform-style: preserve-3d;
+  user-select: none;
+  cursor: pointer;
+  display: block;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -60,7 +80,7 @@ main {
 }
 
 footer {
-  padding-top: 500px;
+  padding-top: 450px;
   padding: top;
   bottom: 0;
 }
