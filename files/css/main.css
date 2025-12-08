@@ -31,6 +31,10 @@ header {
   display: block;
 }
 
+.header-logo h3 {
+  padding-top: 10px;
+}
+
 main {
   display: flex;
   justify-content: center;
