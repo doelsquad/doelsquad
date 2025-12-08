@@ -1,6 +1,6 @@
 // code by  (https://github.com/1428Stef)
 // file created at 8 December 2025 3:47:09 PM (UTC+3)
-
+console.log("[*] link.js loaded.")
 let teezID = document.getElementById("teez")
 teezID.addEventListener('click', function() {
     window.open("https://nubovik01.github.io");
