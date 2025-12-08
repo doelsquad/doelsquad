@@ -135,36 +135,6 @@ main {
   width: 100%;
 }
 
-@media (max-width: 640px) {
-  .members {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-}
-
-.members img {
-  max-width: 6em;
-  font-size: 50px;
-}
-
-@media (max-width: 640px) {
-  .members img {
-    max-width: 90%;
-  }
-}
-
-.member-name {
-  font-size: 50px;
-  cursor: help;
-}
-
-@media (max-width: 470px) {
-  .member-name {
-    font-size: 30px;
-  }
-}
-
 footer {
   padding-top: 300px;
   padding: top;
@@ -186,5 +156,18 @@ footer {
   transform: scale(1.1);
 }
 
+@media (max-width: 430px) {
+  .main-cards-members {
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+  }
 
+  .container {
+    padding-top: 20px;
+  }
 
+  footer {
+    padding-top: 0px;
+  }
+}
