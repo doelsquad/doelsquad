@@ -29,10 +29,13 @@ header {
   user-select: none;
   cursor: pointer;
   display: block;
+  justify-content: center;
 }
 
 .header-logo h3 {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 main {
