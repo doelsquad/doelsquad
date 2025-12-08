@@ -69,6 +69,10 @@ main {
   box-shadow: 0 0 15px black;
 }
 
+.card-teez:hover {
+  box-shadow: 0 0 15px rgba(221, 81, 221, 0.527);
+}
+
 .card-title-teez {
   display: flex;
   font-weight: 900;
@@ -92,6 +96,10 @@ main {
   box-shadow: 0 0 15px black;
 }
 
+.card-stef1428:hover {
+  box-shadow: 0 0 15px rgba(76, 230, 4, 0.377);
+}
+
 .card-title-stef1428 {
   display: flex;
   font-weight: 900;
@@ -113,6 +121,10 @@ main {
   background: url(../images/vladislav.jpg);
   background-size: cover;
   box-shadow: 0 0 15px black;
+}
+
+.card-thk:hover {
+  box-shadow: 0 0 15px rgba(233, 193, 13, 0.377);
 }
 
 .card-title-thk {
