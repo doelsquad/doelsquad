@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   color: #FDFDF1;
   background-color: #2b323f;
 }
@@ -137,7 +137,7 @@ main {
 }
 
 footer {
-  padding-top: 300px;
+  padding-top: 290px;
   padding: top;
   bottom: 0;
 }
