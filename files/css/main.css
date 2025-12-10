@@ -17,6 +17,7 @@ header {
 }
 
 .header-logo {
+  justify-content: center;
   perspective: 800px;
   display: inline-block;
 }
