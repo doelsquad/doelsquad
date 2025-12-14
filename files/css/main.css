@@ -142,18 +142,18 @@ footer {
   bottom: 0;
 }
 
-.link-button {
+.banners {
   display: flex;
   gap: 10px;
   justify-content: center;
   padding-right: 10px;
 }
 
-.stef1428-button, .thk-button, .teez-button {
+.banner {
   transition: transform 0.2s ease;
 }
 
-.stef1428-button:hover, .thk-button:hover, .teez-button:hover {
+.banner:hover {
   transform: scale(1.1);
 }
 
